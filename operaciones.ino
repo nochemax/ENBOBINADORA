@@ -2,8 +2,8 @@ void working(){ // funcion de menu de calculo
   lcd.clear();
   while(espiras>0 && diametro>0 && largo>0){ // conprobacion de la configuracion 
 
-    val=(diametro,diametro1*diametro,diametro1)*(espiras*espiras); //calculo nucleo de aire 
-    val1=(18*diametro,diametro1)+(40*largo,largo1);
+    val=(diametro*diametro)*(espiras*espiras); //calculo nucleo de aire 
+    val1=(18*diametro)+(40*largo);
     uH=0,395*(val/val1);
 
     lcd.setCursor(0, 0);// muestra en lcd resultados 
