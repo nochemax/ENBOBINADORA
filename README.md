@@ -4,7 +4,7 @@ MAQUINA DE ENBOBINADO CON CALCULOS DE INDUCCION CON DIFERENTES NUCLEO CON ARDUIN
 
 todavia hay que corregir algunos fallos de calculos esta en proceso se agradece toda la colavoracion posible muy pronto tutoriales giados en intructable 
 
-prueba de la maquina https://www.youtube.com/watch?v=4JHt_Tr8WfU
+prueba de la maquina https://www.youtube.com/watch?v=FvhZ8AKJuv4
 
 COLABORADORES
 http://blog.elcacharreo.com/
