@@ -26,6 +26,10 @@ void working(){ // funcion de menu de calculo
 
 
       while(contador==espiras){ // comprobacion de las espiras dadas al nucleo y estop de la maquina 
+        if(final==0){
+          final=1;
+          lcd.clear();
+        }
         analogWrite(motor,0); // motor 0 
         lcd.home();           // mostramos en pantalla la terminacion 
         lcd.setCursor(4, 0);
