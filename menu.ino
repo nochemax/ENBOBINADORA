@@ -40,8 +40,7 @@ void padN(){ //funcion keypad contdor de espiras
   }
 
   if(padval==738){// calculo
-    working();  
-    lcd.clear();
+  espiras=espiras+1000;
   }
 }
 
@@ -98,13 +97,13 @@ void padD1(){// funcion keypad decima diametro
   }
 
   if(padval==0){     // menos decimas de diametro
-    diametro1--;
-    diametro1=max(diametro1,0);  
+    diametro=diametro-0.1;
+    diametro=max(diametro,0);  
   }
 
   if((padval>=497)&&(padval<=520)){ // mas decimas de diametro
-    diametro1++;
-    diametro1=min(diametro1,99);//valor maximo de largo bobina 
+    diametro=diametro+0.1;;
+    diametro=min(diametro,99);//valor maximo de largo bobina 
   }
 
   if(padval==738){
@@ -167,13 +166,13 @@ void padL1(){ // funcion keypad decimas de largo de la bobina
   }
 
   if(padval==0){     // left menos decimas de largo 
-    largo1--;
-    largo1=max(largo1,0);
+    largo=largo-0.1;
+    largo=max(largo,0);
   }
 
   if((padval>=497)&&(padval<=520)){ // right mas decimas de largo 
-    largo1++;
-    largo1=min(largo1,9);  
+    largo=largo+0.1;
+    largo=min(largo,9);  
   }
 
   if(padval==738){
