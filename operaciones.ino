@@ -4,7 +4,7 @@ void working(){ // funcion de menu de calculo
 
     val=(diametro*diametro)*(espiras*espiras); //calculo nucleo de aire 
     val1=(18*diametro)+(40*largo);
-    uH=0,395*(val/val1);
+    uH=(val/val1);
 
     lcd.setCursor(0, 0);// muestra en lcd resultados 
     lcd.print("uH="); 
