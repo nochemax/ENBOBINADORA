@@ -14,8 +14,8 @@ float diametro=0;// unidades de diametro
 float largo=0; //  largo bobina 
 float uH=0;// resultado de la capacidad de la bobina
 int ok=0;// //variable simple 1 o 0 
-int val=0; // variable de calculos
-int val1=0;//variable de calculos
+float val=0; // variable de calculos
+float val1=0;//variable de calculos
 
 
 void setup() {// configuraciion de la placa 
