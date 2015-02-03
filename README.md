@@ -23,7 +23,7 @@ reguladores 78: 12,09,05
 1 tip 120 
 resistencias : 2k2,10k y 200ohm 
 condensadores: 100uf 25v*2, 47uf 18v*2 47uf 10v*2
-piezas 3D print: (FALTA ENLACE) 
+piezas 3D print: http://www.thingiverse.com/thing:664565 
 barillas roscadas: diametro 5MM Y 9MM
 tornillos par madera: 30 cmlargo y 20 
 tabla de unos 20 mm de grosor, el tamaño ya puede ser modificado (falta enlace instrucciones) 
