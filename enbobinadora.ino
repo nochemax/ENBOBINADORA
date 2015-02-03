@@ -97,7 +97,7 @@ void loop() {
     lcd.print("CM");
     break;
   case 5:
-    padL1();// funcion pad para cambiar el valor de decenas
+    padL1();// funcion pad para cambiar el valor de largo decenas
     lcd.home();
     lcd.setCursor(0,0);
     lcd.print("L=");
